@@ -5,10 +5,14 @@ function mostrarDatos() {
     var cadena = document.getElementById("cadena").value;
     var booleano = document.getElementById("booleano").checked;
 
-    // Mostrar los valores en la consola
-    console.log("Valores ingresados:");
-    console.log("Entero: " + entero);
-    console.log("Decimal: " + decimal);
-    console.log("Cadena: " + cadena);
-    console.log("Booleano: " + booleano);
+    // Obtener la fecha y hora actual
+    var fechaHora = new Date();
+    
+            // Mostrar los valores y la fecha/hora en la consola
+            console.log("Valores ingresados:");
+            console.log("Entero: " + entero);
+            console.log("Decimal: " + decimal);
+            console.log("Cadena: " + cadena);
+            console.log("Booleano: " + booleano);
+            console.log("Fecha y Hora: " + fechaHora);
 }
